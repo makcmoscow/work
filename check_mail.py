@@ -16,13 +16,13 @@ def main():
 
 def send_email(to, message):
     pass
-    # username = 'testmprtv@m-production.tv'
-    # user_pass = '565ts89%w()32'
-    # smtp_server = 'mail.m-pr.tv'
-    # smtp_port = 25
-    # mail_lib = smtplib.SMTP(smtp_server, smtp_port)
-    # mail_lib.login(username, user_pass)
-    # mail_lib.sendmail(username, to, message)
+    username = 'testmprtv@m-production.tv'
+    user_pass = '565ts89%w()32'
+    smtp_server = 'mail.m-pr.tv'
+    smtp_port = 25
+    mail_lib = smtplib.SMTP(smtp_server, smtp_port)
+    mail_lib.login(username, user_pass)
+    mail_lib.sendmail(username, to, message)
 
 
 def recieve_email(mail, srv):
